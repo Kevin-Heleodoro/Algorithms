@@ -6,13 +6,16 @@ TIPS:
 2. element flipping
 3. reverse iterate
 
+Notes:
+https://www.notion.so/kevinheleodoro/Array-permutation-22dfde566939444fa361865d2fddff39 
+
 */
 
 
 // TEST VARIABLES
-const arr = [1,2,3] // Should return -> [1,3,2]
 // const arr = [1,2,3,4] // Should return -> [1,2,4,3]
-// const arr = [5,6,4,7,9,3,2,8,1] // Should return -> [5,6,4,7,9,3,8,1,2], [5,6,4,7,9,3,8,2,1]
+const arr = [5,6,4,7,9,3,2,8,1] // Should return -> [5,6,4,7,9,3,8,1,2], [5,6,4,7,9,3,8,2,1]
+// const arr = [1,2,3] // Should return -> [1,3,2]
 
 
 
