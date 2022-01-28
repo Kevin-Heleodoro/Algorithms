@@ -33,20 +33,22 @@ const n3 = { name: 'Bar', context: 0 };
 const n4 = { name: 'Baz', context: 1 };
 const needles = [n1, n2, n3, n4];
 
+
+//Attempt 1:
 let findMatches = (needles, haystack) => {
   const results =[]
   for(let n in needles) {
-    let match;
+    let match; //match is declared in the outer loop for edge cases where there are no matches
     for(let h in haystack){
       
-      if(needles[n].id === haystack[h].id) {
+      if(needles[n].id === haystack[h].id) { // if the id's are the same, they match
         match = [needles[n], haystack[h]]
         if(!results.includes(match)) {
           results.push(match)
         }
       }
 
-      else if(needles[n].name === haystack[h].name && needles[n].context === haystack[h].context) {
+      else if(needles[n].name === haystack[h].name && needles[n].context === haystack[h].context) { // if names and context are the same, they match
         match = [needles[n], haystack[h]]
         if(!results.includes(match)) {
           results.push(match)
@@ -54,7 +56,7 @@ let findMatches = (needles, haystack) => {
       }
     } 
 
-    if(!match) {
+    if(!match) { // if no match for needle, push up a null
       results.push([needles[n], null])
     }
   }
@@ -77,19 +79,4 @@ const compare = (left, right) => {
 // console.log(compare(findMatches([n4], haystack), [[n4, null]])); // True
 
 // console.log(findMatches(needles, haystack));
-// console.log(compare(findMatches(needles, haystack), [[n1, h1], [n2, h3], [n3, h2], [n4, null]]));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// console.log(compare(findMatches(needles, haystack), [[n1, h1], [n2, h3], [n3, h2], [n4, null]])); // True
