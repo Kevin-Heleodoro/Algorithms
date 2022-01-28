@@ -1,12 +1,27 @@
 # Algorithms
 
 This repository is a collection of different algorithms and their solutions. 
+Links to specific Algorithms are below. Once you open the file, uncomment the different attempts and run:
 
-## Description
+```
+# For JavaScript
+node FILE_NAME.js
+
+OR
+
+# For Python
+python FILE_NAME.py
+```
+
+### JavaScript
 Bubble Sort [here](Sorting/bubbleSort.js)
+Array Permutation [here](Permutation/arrayPermutation.js)
 
-Breadth-first Search [here](Searching/breadthFirstSearch.js)
+### Python
+Breadth-first Search [here](Searching/breadthFirstSearch.py)
+
+### Interview Problems
+Find matches between two arrays [here](Interview_Problems/findMatches.js)
 
 ## Related Links
-
-https://www.bigocheatsheet.com/ 
+- https://www.bigocheatsheet.com/ 
