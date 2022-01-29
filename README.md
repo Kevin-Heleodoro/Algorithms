@@ -14,8 +14,10 @@ python FILE_NAME.py
 ```
 
 ### JavaScript
-Bubble Sort [here](Sorting/bubbleSort.js)
 Array Permutation [here](Permutation/arrayPermutation.js)
+Binary Search [here](Searching/binarySearch.js)
+Bubble Sort [here](Sorting/bubbleSort.js)
+
 
 ### Python
 Breadth-first Search [here](Searching/breadthFirstSearch.py)
