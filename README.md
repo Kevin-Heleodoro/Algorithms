@@ -25,6 +25,8 @@ Dijkstra's Algorithm (Variation of breadth-first that takes into account the wei
 
 ### Interview Problems
 Find matches between two arrays [here](Interview_Problems/findMatches.js)
+Find a the best possible combination of stations to cover the biggest area [here](Interview_Problems/setCoveringProblem.py)
+
 
 ## Related Links
 - https://www.bigocheatsheet.com/ 
