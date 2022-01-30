@@ -21,6 +21,7 @@ Bubble Sort [here](Sorting/bubbleSort.js)
 
 ### Python
 Breadth-first Search [here](Searching/breadthFirstSearch.py)
+Dijkstra's Algorithm (Variation of breadth-first that takes into account the weight of each edge) [here](Searching/dijkstrasAlgo.py)
 
 ### Interview Problems
 Find matches between two arrays [here](Interview_Problems/findMatches.js)
