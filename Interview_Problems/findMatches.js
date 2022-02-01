@@ -79,4 +79,4 @@ const compare = (left, right) => {
 // console.log(compare(findMatches([n4], haystack), [[n4, null]])); // True
 
 // console.log(findMatches(needles, haystack));
-// console.log(compare(findMatches(needles, haystack), [[n1, h1], [n2, h3], [n3, h2], [n4, null]])); // True
+console.log(compare(findMatches(needles, haystack), [[n1, h1], [n2, h3], [n3, h2], [n4, null]])); // True

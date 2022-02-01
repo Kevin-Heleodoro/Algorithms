@@ -1,22 +1,25 @@
 # Algorithms
 
 This repository is a collection of different algorithms and their solutions. 
-Links to specific Algorithms are below. Once you open the file, uncomment the different attempts and run:
+Links to specific Algorithms are below. 
+
+For most problems I have provided multiple solution attempts. Uncomment each attempt and run the commands below to see the results.
 
 ```
 # For JavaScript
-node FILE_NAME.js
+node FOLDER_NAME/FILE_NAME.js
 
 OR
 
 # For Python
-python FILE_NAME.py
+python FOLDER_NAME/FILE_NAME.py
 ```
 
 ### JavaScript
 Array Permutation [here](Permutation/arrayPermutation.js)
 Binary Search [here](Searching/binarySearch.js)
 Bubble Sort [here](Sorting/bubbleSort.js)
+Longest Palindrome Substring in a String [here](Sorting/longestPalindrome.js)
 
 
 ### Python
