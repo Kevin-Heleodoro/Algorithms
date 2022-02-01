@@ -21,6 +21,7 @@ Binary Search [here](Searching/binarySearch.js)
 Bubble Sort [here](Sorting/bubbleSort.js)
 Longest Palindrome Substring in a String [here](Sorting/longestPalindrome.js)
 Search Insert Position [here](Searching/searchInsertPosition.js)
+Squares of a Sorted Array [here](Sorting/sortedSquares.js)
 
 
 ### Python
