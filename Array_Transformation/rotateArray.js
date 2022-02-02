@@ -41,12 +41,25 @@ const nums = [1,2,3,4,5,6,7], k = 3
 // }
 
 
+// Attempt 2:
+const rotate = function(nums, k) {
+  for(let i = nums.length - 1; i >= 0; i--) {
+    nums[i + k] = nums[i]
+  }
+
+  for(let j = k - 1; j >= 0; j--) {
+    nums[j] = nums.pop()
+  }
+  return nums
+}
+
+
 // O(n) time complexity
 // O(1) space complexity
 // Courtesy of hon9g https://leetcode.com/problems/rotate-array/discuss/487529/py3-js-5-different-simple-solutions 
-const rotate = (nums, k) => {
-  while(k--) nums.unshift(nums.pop())
-  return nums
-}
+// const rotate = (nums, k) => {
+//   while(k--) nums.unshift(nums.pop())
+//   return nums
+// }
 
 console.log(rotate(nums, k));
