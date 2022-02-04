@@ -51,11 +51,28 @@ const nums = [0,0,1]
 
 // Attempt 3:
 // Addresses the issue of two zeroes next to each other
+// const moveZeroes = (nums) => {
+//   for(let i = nums.length - 1; i >= 0; i--) {
+//     if(nums[i] === 0) {
+//       nums.push(nums[i])
+//       nums.splice(i, 1)
+//     }
+//   }
+//   return nums
+// }
+
+
+
+
+// Courtesy of AbdulKhader4123 https://leetcode.com/problems/move-zeroes/discuss/72364/Javascript-124ms 
 const moveZeroes = (nums) => {
-  for(let i = nums.length - 1; i >= 0; i--) {
+  let count = 0; // this is to prevent an infinite loop
+  for(let i = 0; i < nums.length; i++) {
+    if(count === nums.length) break
+    count++
     if(nums[i] === 0) {
-      nums.push(nums[i])
-      nums.splice(i, 1)
+      nums.splice(nums.length, 0, nums.splice(i, 1)[0])
+      i--
     }
   }
   return nums

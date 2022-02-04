@@ -24,6 +24,7 @@ Move Zeroes in Array [here](Array_Transformation/moveZeroes.js)
 Rotate an Array [here](Array_Transformation/rotateArray.js)
 Search Insert Position [here](Searching/searchInsertPosition.js)
 Squares of a Sorted Array [here](Sorting/sortedSquares.js)
+Two Sum II - Sorted Array [here](Searching/twoSum2.js)
 
 
 ### Python
