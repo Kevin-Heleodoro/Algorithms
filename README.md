@@ -17,6 +17,7 @@ python FOLDER_NAME/FILE_NAME.py
 
 ### JavaScript
 Array Permutation [here](Array_Transformation/arrayPermutation.js)
+Array Splitter [here](Array_Transformation/arraySplitter.js)
 Binary Search [here](Searching/binarySearch.js)
 Bubble Sort [here](Sorting/bubbleSort.js)
 Longest Palindrome Substring in a String [here](Sorting/longestPalindrome.js)

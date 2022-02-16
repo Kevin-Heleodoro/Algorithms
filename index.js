@@ -87,5 +87,3 @@
 // }
 
 // console.log(palFinder(text));
-
-
