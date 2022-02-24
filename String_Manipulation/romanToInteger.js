@@ -24,7 +24,8 @@
 
 
 
-
+// Attempt 1:
+// Super ugly
 const romanToInt = function(numeral) {
     let count = 0;
 
@@ -94,3 +95,46 @@ const romanToInt = function(numeral) {
 let s = "MCDLXXVI" // 1476
 
 console.log(romanToInt(s))
+
+
+
+
+// Courtesy of garyguan0713 https://leetcode.com/problems/roman-to-integer/discuss/326345/Simple-JavaScript-Solution-Easy-Understanding 
+const symbols = {
+	"I":1,
+	"V":5,
+	"X":10,
+	"L":50,
+	"C":100,
+	"D":500,
+	"M":1000
+}
+
+const romanToInt2 = function(s) {
+	let value = 0;
+
+	for(let i = 0; i < s.length; i++){
+		symbols[s[i]] < symbols[s[i + 1]] ? value -= symbols[s[i]] : value += symbols[s[i]]
+	}
+
+	return value
+}
+
+console.log(romanToInt2(s))
+
+
+
+// Courtesy of sgallivan https://leetcode.com/problems/roman-to-integer/discuss/1074149/JS-Python-Java-C%2B%2B-or-Switch-Dictionary-Solution-w-Explanation-or-beats-100
+const roman = {'I':1,'V':5,'X':10,'L':50,'C':100,'D':500,'M':1000}
+
+var romanToInt3 = function(S) {
+    let ans = 0
+    for (let i = S.length-1; ~i; i--) {
+        let num = roman[S.charAt(i)]
+        if (4 * num < ans) ans -= num
+        else ans += num
+    }
+    return ans
+};
+
+console.log(romanToInt3(s))
