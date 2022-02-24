@@ -47,6 +47,8 @@ python FOLDER_NAME/FILE_NAME.py
 
 - [Reverse String](String_Manipulation/reverseString.js)
 
+- [Roman to Integer](String_Manipulation/romanToInteger.js)
+
 - [String Palindrome](String_Manipulation/stringPal.js)
 
 
