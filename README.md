@@ -43,6 +43,8 @@ python FOLDER_NAME/FILE_NAME.py
 ### String Problems
 - [First Repeating Character](String_Manipulation/firstRepeating.js)
 
+- [Longest Common Prefix](String_Manipulation/longestCommonPrefix.js)
+
 - [Longest Palindrom in paragraph](String_Manipulation/longestPal.js)
 
 - [Reverse String](String_Manipulation/reverseString.js)
