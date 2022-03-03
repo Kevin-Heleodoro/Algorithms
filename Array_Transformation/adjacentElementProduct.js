@@ -7,6 +7,9 @@
 
 // 7 and 3 produce the largest product.
 
+// Fails on Attempt 1:
+let array = [-23, 4, -3, 8, -12];
+
 // Attempt 1:
 // Does not account for negative products
 function solution(inputArray) {

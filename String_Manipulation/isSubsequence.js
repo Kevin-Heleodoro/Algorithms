@@ -6,7 +6,15 @@
 
 let s = "abc",
 	t = "ahbgdc"; // true
-let s = "axc",
-	t = "ahbgdc"; // false
+// let s = "axc",
+// 	t = "ahbgdc"; // false
 
-const isSubsequence = function (s, t) {};
+const isSubsequence = function (s, t) {
+	let regex = new RegExp(s.split("").join(".*"));
+
+	if (t.match(regex)) return true;
+
+	return false;
+};
+
+console.log(isSubsequence(s, t));
