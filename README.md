@@ -23,6 +23,8 @@ python FOLDER_NAME/FILE_NAME.py
 
 -   [Array Splitter](Array_Transformation/arraySplitter.js)
 
+-   [Greatest Product of Adjacent Elements](Array_Transformation/adjacentElementProduct.js)
+
 -   [Move Zeroes in Array](Array_Transformation/moveZeroes.js)
 
 -   [Rotate an Array](Array_Transformation/rotateArray.js)
@@ -74,6 +76,10 @@ python FOLDER_NAME/FILE_NAME.py
 -   [Find a the best possible combination of stations to cover the biggest area](Interview_Problems/setCoveringProblem.py)
 
 -   [Find the first bad version of a product in an array ** binary search **](Interview_Problems/firstBadVersion.js)
+
+-   [Mine Sweeper](Interview_Problems/mineSweeper.js)
+
+-   [Friends to Lunch](Interview_Problems/friendsToLunch.js)
 
 ## Related Links
 

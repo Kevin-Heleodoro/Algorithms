@@ -1,36 +1,3 @@
-// function solution(s, t) {
-// 	const numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
-// 	let count = 0;
-
-// 	for (let i = 0; i < s.length; i++) {
-// 		if (parseInt(s[i]) !== NaN) {
-// 			let left = s.slice(0, i);
-// 			let right = s.slice(i + 1);
-// 			let currentTest = left.concat(right);
-// 			if (currentTest < t) count++;
-// 		}
-// 	}
-
-// 	// if t[j] === 0, it is returning a falsy value. ... figure this out
-// 	for (let j = 0; j < t.length; j++) {
-// 		let number = parseInt(t[j]);
-// 		if (number) {
-// 			console.log(t[j]);
-// 			let left = t.slice(0, j);
-// 			let right = t.slice(j + 1);
-// 			let currentTest = left.concat(right);
-// 			if (currentTest > s) count++;
-// 		}
-// 	}
-
-// 	return count;
-// }
-
-// let s = "4u05q";
-// let t = "ed0r7";
-
-// console.log(solution(s, t));
-
 // Minesweeper is a popular single-player computer game. The goal is to locate mines within a rectangular grid of cells. At the start of the game, all of the cells are concealed. On each turn, the player clicks on a blank cell to reveal its contents, leading to the following result:
 
 // If there's a mine on this cell, the player loses and the game is over;

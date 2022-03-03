@@ -31,20 +31,3 @@
 // Restaurant 2 is more preferable by the first and the second friends than the restaurant 3.
 // Restaurant 3 is more preferable by the second and the third friends than the restaurant 1.
 // None of the restaurants meet their criteria, so the friends can't agree on a restaurant.
-
-// Input/Output
-
-// [execution time limit] 4 seconds (js)
-
-// [input] array.array.integer preferences
-
-// An array of 3 arrays of integers, representing the restaurant preferences of three friends. It is guaranteed that the preferences array for each friend is correct, i.e. it contains a permutation of numbers from 1 to n.
-
-// Guaranteed constraints:
-// preferences.length = 3,
-// 1 ≤ preferences[0].length ≤ 105,
-// preferences[i].length = preferences[0].length.
-
-// [output] integer
-
-// An integer representing the number of the chosen restaurant, or -1 otherwise.
