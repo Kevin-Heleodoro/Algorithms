@@ -29,6 +29,10 @@ python FOLDER_NAME/FILE_NAME.py
 
 -   [Rotate an Array](Array_Transformation/rotateArray.js)
 
+### Numbers
+
+-   [Shape Areas](Numbers/shapeArea.js)
+
 ### Searching
 
 -   [Binary Search](Searching/binarySearch.js)
