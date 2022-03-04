@@ -31,6 +31,8 @@ python FOLDER_NAME/FILE_NAME.py
 
 ### Numbers
 
+-   [Make Array Elements Consecutive](Numbers/makeArrayConsecutive.js)
+
 -   [Shape Areas](Numbers/shapeArea.js)
 
 ### Searching
