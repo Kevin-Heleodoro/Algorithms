@@ -26,20 +26,6 @@ let x = 1,
 //                                  [-1, 5, -1],
 //                                  [-1, -1, -1]
 
-function solution(field, x, y) {
-	let updatedField = [];
-
-	let row = field[x];
-	let column = row[y];
-
-	for (let i = 0; i < field.length; i++) {
-		let row = [];
-		if (row === field[i]) {
-			if (!column) {
-			}
-		}
-	}
-	return updatedField;
-}
+function solution(field, x, y) {}
 
 console.log(solution(field, x, y));

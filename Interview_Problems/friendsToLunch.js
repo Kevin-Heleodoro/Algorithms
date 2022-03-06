@@ -10,9 +10,11 @@
 
 // For
 
-// preferences = [[1, 2, 3, 4],
-//                [3, 1, 4, 2],
-//                [4, 2, 1, 3]]
+let preferences = [
+	[1, 2, 3, 4],
+	[3, 1, 4, 2],
+	[4, 2, 1, 3],
+];
 // the output should be solution(preferences) = 1.
 
 // Restaurant 1 is friend 1's first choice; they wouldn't prefer any other restaurant.
@@ -31,3 +33,5 @@
 // Restaurant 2 is more preferable by the first and the second friends than the restaurant 3.
 // Restaurant 3 is more preferable by the second and the third friends than the restaurant 1.
 // None of the restaurants meet their criteria, so the friends can't agree on a restaurant.
+
+function solution(preferences) {}

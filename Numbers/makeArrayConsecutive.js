@@ -40,3 +40,8 @@ function bubbleSort(arr) {
 
 let statues = [6, 2, 3, 8]; // 3
 console.log(solution(statues));
+
+// Using Math
+// function solution(sequence) {
+// 	return Math.max(...sequence)-Math.min(...sequence)+1-sequence.length
+//   }
