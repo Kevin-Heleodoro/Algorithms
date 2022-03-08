@@ -87,6 +87,8 @@ python FOLDER_NAME/FILE_NAME.py
 
 -   [Friends to Lunch](Interview_Problems/friendsToLunch.js)
 
+-   [Sudoku 2](Interview_Problems/sudoku2.js)
+
 ## Related Links
 
 -   https://www.bigocheatsheet.com/
