@@ -19,6 +19,8 @@ python FOLDER_NAME/FILE_NAME.py
 
 ### Array Problems
 
+-   [Almost Increasing Sequence](Array_Transformation/almostIncreasingSequence.js)
+
 -   [Array Permutation](Array_Transformation/arrayPermutation.js)
 
 -   [Array Splitter](Array_Transformation/arraySplitter.js)
