@@ -63,6 +63,8 @@ python FOLDER_NAME/FILE_NAME.py
 
 -   [Longest Palindrom in paragraph](String_Manipulation/longestPal.js)
 
+-   [Permutation in String](String_Manipulation/permutationInString.js)
+
 -   [Reverse String](String_Manipulation/reverseString.js)
 
 -   [Reverse Words](String_Manipulation/reverseWords.js)
