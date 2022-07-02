@@ -33,6 +33,8 @@ python FOLDER_NAME/FILE_NAME.py
 
 ### Numbers
 
+-   [Find Median Sorted Arrays](Numbers/findMedianSortedArrays.js)
+
 -   [Make Array Elements Consecutive](Numbers/makeArrayConsecutive.js)
 
 -   [Shape Areas](Numbers/shapeArea.js)
