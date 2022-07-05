@@ -35,6 +35,8 @@ python FOLDER_NAME/FILE_NAME.py
 
 -   [Find Median Sorted Arrays](Numbers/findMedianSortedArrays.js)
 
+-   [Longest Consecutive Sequence](Numbers/longestConsecutiveSequence.js)
+
 -   [Make Array Elements Consecutive](Numbers/makeArrayConsecutive.js)
 
 -   [Shape Areas](Numbers/shapeArea.js)
