@@ -59,6 +59,8 @@ python FOLDER_NAME/FILE_NAME.py
 
 -   [First Repeating Character](String_Manipulation/firstRepeating.js)
 
+-   [Longest Palindromic Substring](String_Manipulation/longestPalindromicSubstring.js)
+
 -   [Longest Substring Without Repeating Characters](String_Manipulation/lengthOfLongestSubString.js)
 
 -   [Longest Common Prefix](String_Manipulation/longestCommonPrefix.js)
